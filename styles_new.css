@@ -1,0 +1,121 @@
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 3rem;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #fafafa;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+hr{
+  width: 70%;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.verified {
+  width: 20px;
+}
+.container_1 {
+  /* max-width: 93rem;
+  margin: 0 auto;
+  padding: 0 2rem; */
+  align-items: center;
+}
+.profile {
+    padding: 5rem 0;
+}
+
+.profile-image {
+    float: left;
+    width: calc(33.333% - 1rem);
+    display: flex;
+    justify-content: center;
+    align-content: right;
+    margin-left: 200px;
+    margin-right: 0px;
+
+}
+.circular{
+  border-radius: 100%;
+}
+.profile-user-settings {
+    margin-top: 1.1rem;
+}
+.profile-user-name {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.btn {
+    display: inline-block;
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+.profile-edit-btn {
+    font-size: 1rem;
+    line-height: 1;
+    border: 0.1rem solid #dbdbdb;
+    border-radius: 0.3rem;
+    padding: 0 2rem;
+    margin-left: 2rem;
+}
+.profile-settings-btn {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.profile-stats {
+    order: 1;
+    margin-top: 1.5rem;
+}
+.profile-stats-count{
+  padding-left: 30px;
+}
+.profile-bio {
+  padding-top: 10px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+.navbar-brand{
+  padding-left: 300px;
+  padding-right: 250px;
+}
+.nav-items{
+  padding-left: 100px;
+}
+.nav-item {
+  padding-right: 10px;
+}
